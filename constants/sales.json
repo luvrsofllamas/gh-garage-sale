@@ -1,0 +1,107 @@
+[
+  {
+    "address": "4605 Broadale",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4625 Broadale",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4515 Broadale",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "1932 Cypress",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4684 Dornur",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4685 Landchester",
+    "saturday": true,
+    "friday": false
+  },
+  {
+    "address": "4749 Morningside",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4744 Morningside",
+    "friday": false,
+    "saturday": true
+  },
+  {
+    "address": "4664 Morningside",
+    "friday": false,
+    "saturday": true
+  },
+  {
+    "address": "4681 Morningside",
+    "friday": false,
+    "saturday": true
+  },
+  {
+    "address": "1801 Tampa",
+    "friday": false,
+    "saturday": true
+  },
+  {
+    "address": "4628 South Hills",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4577 South Hills",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4665 South Hills",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4581 South Hills",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4482 South Hills",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4475 South Hills",
+    "friday": true,
+    "saturday": true
+  },
+  {
+    "address": "4584 South Hills",
+    "friday": false,
+    "saturday": true
+  },
+  {
+    "address": "4648 South Hills",
+    "friday": false,
+    "saturday": true
+  },
+  {
+    "address": "4571 South Hills",
+    "friday": false,
+    "saturday": true
+  },
+  {
+    "address": "4458 South Hills",
+    "friday": false,
+    "saturday": true
+  }
+]
