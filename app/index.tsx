@@ -27,7 +27,6 @@ const SegmentedControl = (
         marginHorizontal: 50,
         flexDirection: "row",
         justifyContent: "center",
-        backgroundColor: "white",
       }}
     >
       {items.map((item, index) => (
@@ -101,7 +100,7 @@ export default function HomeScreen() {
   ];
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, backgroundColor: "white", }}>
       <View style={{ width: "100%", height: windowDimensions.height / 2 }}>
         <APIProvider apiKey={process.env.EXPO_PUBLIC_MAPS_API_KEY as string}>
           <Map
