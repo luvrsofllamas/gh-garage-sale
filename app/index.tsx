@@ -100,7 +100,7 @@ export default function HomeScreen() {
   ];
 
   return (
-    <View style={{ flex: 1, backgroundColor: "white", }}>
+    <View style={{ flex: 1, backgroundColor: "white" }}>
       <View style={{ width: "100%", height: windowDimensions.height / 2 }}>
         <APIProvider apiKey={process.env.EXPO_PUBLIC_MAPS_API_KEY as string}>
           <Map
@@ -145,15 +145,15 @@ export default function HomeScreen() {
           </Map>
         </APIProvider>
       </View>
+      <SegmentedControl
+        items={filterItems}
+        onSetItemIndex={setFilterIndex}
+        selectedIndex={filterIndex}
+      />
       <ScrollView
         contentContainerStyle={{ flex: 1, marginHorizontal: 20, marginTop: 10 }}
       >
         <Stack.Screen options={{ title: "South Hills Garage Sales" }} />
-        <SegmentedControl
-          items={filterItems}
-          onSetItemIndex={setFilterIndex}
-          selectedIndex={filterIndex}
-        />
         <View style={{ marginTop: 10, rowGap: 5 }}>
           {filteredSales.map((sale) => (
             <View
@@ -176,7 +176,10 @@ export default function HomeScreen() {
                   })
                 }
               />
-              <Pressable style={{ flex: 1 }} onPress={() => setSelectedItem(sale.address)}>
+              <Pressable
+                style={{ flex: 1 }}
+                onPress={() => setSelectedItem(sale.address)}
+              >
                 <View style={{ flex: 1, flexDirection: "row" }}>
                   <Text style={{ fontSize: 20, paddingLeft: 10 }}>
                     {sale.address}
