@@ -27,6 +27,7 @@ const SegmentedControl = (
         marginHorizontal: 50,
         flexDirection: "row",
         justifyContent: "center",
+        backgroundColor: "white",
       }}
     >
       {items.map((item, index) => (
