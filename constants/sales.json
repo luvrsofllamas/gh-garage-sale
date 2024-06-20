@@ -2,106 +2,127 @@
   {
     "address": "4605 Broadale",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43111981882748, "lng": -81.69151710413857 }
   },
   {
     "address": "4625 Broadale",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43052684035971, "lng": -81.69115596181041 }
   },
   {
     "address": "4515 Broadale",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.433227358107644, "lng": -81.69220777715384 }
   },
   {
     "address": "1932 Cypress",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43139390614548, "lng": -81.69618554461562 }
   },
   {
     "address": "4684 Dornur",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.42904700015179, "lng": -81.69340477530281 }
   },
   {
     "address": "4685 Landchester",
     "saturday": true,
-    "friday": false
+    "friday": false,
+    "coords": { "lat": 41.428911644762614, "lng": -81.6917969599593 }
   },
   {
     "address": "4749 Morningside",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.42736137119149,  "lng": -81.68967604831823 }
   },
   {
     "address": "4744 Morningside",
     "friday": false,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.42740136003018, "lng":  -81.69014628879525 }
   },
   {
     "address": "4664 Morningside",
     "friday": false,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.42964902192581, "lng": -81.69020450413868 }
   },
   {
     "address": "4681 Morningside",
     "friday": false,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.42921335941541, "lng": -81.68955096348823 }
   },
   {
     "address": "1801 Tampa",
     "friday": false,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43259697851921, "lng": -81.69353177715385 }
   },
   {
     "address": "4628 South Hills",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43064759963901, "lng": -81.69426263482575 }
   },
   {
     "address": "4577 South Hills",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43127411850242, "lng": -81.69169074646678 }
   },
   {
     "address": "4665 South Hills",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.42945593166459, "lng": -81.69452733112333 }
   },
   {
     "address": "4581 South Hills",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.431056486999836, "lng": -81.69223931948216 }
   },
   {
     "address": "4482 South Hills",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.434129367109094, "lng": -81.69155554999416 }
   },
   {
     "address": "4475 South Hills",
     "friday": true,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43430541211653, "lng": -81.69090924646662 }
   },
   {
     "address": "4584 South Hills",
     "friday": false,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.431538337602206, "lng":  -81.69281529249749 }
   },
   {
     "address": "4648 South Hills",
     "friday": false,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43014994138711, "lng":  -81.69467454646683 }
   },
   {
     "address": "4571 South Hills",
     "friday": false,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43153750580734, "lng": -81.69151961948211 }
   },
   {
     "address": "4458 South Hills",
     "friday": false,
-    "saturday": true
+    "saturday": true,
+    "coords": { "lat": 41.43485842029236, "lng": -81.69150470228713 }
   }
 ]
