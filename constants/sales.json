@@ -102,6 +102,12 @@
     "coords": { "lat": 41.43430541211653, "lng": -81.69090924646662 }
   },
   {
+    "address": "4579 South Hills",
+    "friday": true,
+    "saturday": true,
+    "coords": { "lat": 41.43107210593502, "lng": -81.69208673594406 }
+  },
+  {
     "address": "4584 South Hills",
     "friday": false,
     "saturday": true,
@@ -118,11 +124,5 @@
     "friday": false,
     "saturday": true,
     "coords": { "lat": 41.43153750580734, "lng": -81.69151961948211 }
-  },
-  {
-    "address": "4458 South Hills",
-    "friday": false,
-    "saturday": true,
-    "coords": { "lat": 41.43485842029236, "lng": -81.69150470228713 }
   }
 ]

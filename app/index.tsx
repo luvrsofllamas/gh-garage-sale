@@ -111,18 +111,20 @@ export default function HomeScreen() {
             gestureHandling={"greedy"}
             disableDefaultUI={true}
           >
-            {filteredSales.map((sale) => (
-              <AdvancedMarker key={sale.address} position={sale.coords}>
-                <View
-                  style={{
-                    backgroundColor: filterItems[filterIndex].color,
-                    height: 16,
-                    width: 16,
-                    borderRadius: 8,
-                  }}
-                ></View>
-              </AdvancedMarker>
-            ))}
+            {filteredSales.map((sale) =>
+              selectedItem === sale.address ? null : (
+                <AdvancedMarker key={sale.address} position={sale.coords}>
+                  <View
+                    style={{
+                      backgroundColor: filterItems[filterIndex].color,
+                      height: 16,
+                      width: 16,
+                      borderRadius: 8,
+                    }}
+                  ></View>
+                </AdvancedMarker>
+              )
+            )}
             {selectedItem && (
               <AdvancedMarker
                 key={"selected"}
